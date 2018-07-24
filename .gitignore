@@ -10,6 +10,9 @@
 [Ff]onts/
 [Ss]ounds/
 [Pp]refabs/
+[Aa]udio/
+[Bb]lender Imports/
+START Pack/
 
 Assets/AssetStoreTools*
 
@@ -44,3 +47,12 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+
+# Misc
+
+*.wav
+*.png
+*.mat
+*.jpg
+*.jpeg
+*.blend
