@@ -6,7 +6,7 @@
 [Pp]rojectSettings/
 [Pp]ackages/
 [Ii]mages/
-[Ss]cenes/
+_[Ss]cenes/
 [Ff]onts/
 [Ss]ounds/
 [Pp]refabs/
@@ -56,3 +56,4 @@ sysinfo.txt
 *.jpg
 *.jpeg
 *.blend
+*.renderTexture
