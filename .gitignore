@@ -58,3 +58,6 @@ sysinfo.txt
 *.jpeg
 *.blend
 *.renderTexture
+*.DS_Store
+*.controller
+*.anim
