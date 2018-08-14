@@ -9,7 +9,7 @@ public class Pin : MonoBehaviour
 	// Use this for initialization
 	void Start () 
     {
-        print (name + IsStanding());
+
 	}
 	
 	// Update is called once per frame
@@ -22,7 +22,7 @@ public class Pin : MonoBehaviour
     {
         Vector3 rotationInEuler = transform.rotation.eulerAngles;
 
-        float tiltInX = Mathf.Abs(rotationInEuler.x);
+        float tiltInX = Mathf.Abs(270f - rotationInEuler.x);
         float tiltInZ = Mathf.Abs(rotationInEuler.z);
 
         if(tiltInX < standingThreshold && tiltInZ < standingThreshold)
