@@ -37,16 +37,17 @@ public class PinSetter : MonoBehaviour
         Debug.Log("Raising pins");
         foreach (Pin pin in GameObject.FindObjectsOfType<Pin>())
         {
-            if (pin.IsStanding())
-            {
-                pin.transform.Translate(new Vector3(0f, distanceToRaise, 0f));
-            }
+            pin.RaiseIfStanding();
         }
     }
 
     public void LowerPins()
     {
-
+        Debug.Log("Lowering pins");
+        foreach (Pin pin in GameObject.FindObjectsOfType<Pin>())
+        {
+            pin.Lower();
+        }
     }
 
     public void RenewPins()
