@@ -7,7 +7,6 @@ public class Ball : MonoBehaviour
     public Vector3 launchVelocity;
     public bool inPlay = false;
 
-    private Vector3 initialVelocity;
     private Vector3 ballStartPos;
     private Rigidbody rigidBody;
     private AudioSource audioSource;
@@ -40,10 +39,4 @@ public class Ball : MonoBehaviour
         rigidBody.angularVelocity = Vector3.zero;
         rigidBody.useGravity = false;
     }
-
-    // Update is called once per frame
-    void Update ()
-    {
-
-	}
 }
